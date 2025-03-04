@@ -1,0 +1,39 @@
+body {
+    background-color: #1c1520;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    overflow: auto;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#classSelector {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+}
+
+#classSelector div {
+    background-color: aliceblue;
+}
+
+.classPlay {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
