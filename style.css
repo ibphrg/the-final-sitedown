@@ -37,3 +37,24 @@ button:active {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
+#content {
+    width: 98%;
+    margin: auto;
+}
+
+#Hydira {
+    float: left;
+    width: 30%;
+    padding: 0;
+}
+
+#Hydira img {
+    width: 100%;
+}
+
+#infoP {
+    float: left;
+    padding: 20px;
+    width: 60%;
+}
