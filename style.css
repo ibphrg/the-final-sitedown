@@ -89,6 +89,12 @@ button:active {
     text-indent: 2em;
 }
 
+#flameButton:hover {
+    opacity: 0.8;
+    background-color: #ab87c0;
+    border-radius: 60px;
+}
+
 blockquote {
     background-color: #ebdef3;
     width: 75%;
