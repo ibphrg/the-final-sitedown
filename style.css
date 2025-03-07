@@ -55,6 +55,7 @@ button:active {
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 #Hydira {
@@ -104,6 +105,41 @@ blockquote {
     color: #f8eeff
 }
 
+.title img {
+    float: right;
+    clear: right;
+}
+
 hr {
     color: #ebdef3;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ab87c0;
+}
+
+@media screen and (max-width:900px) {
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    #classSelector {
+        display: none;
+    }
+
+    #Hydira {
+        display: none;
+    }
+
+    #infoP {
+        width: 90%;
+    }
 }
